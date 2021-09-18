@@ -10,12 +10,6 @@ function getGithubInfo(user) {
         "fail": noSuchUser(user),
     });
 }
-   /* $.get("https://api.github.com/users/" + user, function (data) {
-      showUser(data);
-    }).fail(function() {
-        noSuchUser(user);
-    })*/
-
 
 function showUser(user) {
     //2. set the contents of the h2 and the two div elements in the div '#profile' with the user content
